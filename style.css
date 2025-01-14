@@ -200,10 +200,10 @@ a:hover{
 }
 .btn-color-1,.btn-color-2 {
     font-weight: 600;
-    padding: 1rem 2rem; /* Padding for the button */
-    border: none; /* Remove default border */
-    border-radius: 30px; /* Rounded corners */
-    cursor: pointer; /* Pointer cursor on hover */
+    padding: 1rem 2rem; 
+    border: none; 
+    border-radius: 30px; 
+    cursor: pointer; 
     transition: background-color 0.3s ease;  
 }
 .btn-color-1{
@@ -348,11 +348,11 @@ a:hover{
     margin: 0 10rem;
 }
 .contact-container{
+    position: relative;
     display: flex;
     justify-content: center;
     border-radius: 2rem;
-    border: rgba(163, 163, 163) 0.1rem solid;
-    background:(250,250,250);
+    border: 0.1rem solid rgba(53, 53, 53, 0.1);
     margin: 2rem auto;
     padding: 0.5rem;
 }
@@ -374,6 +374,7 @@ a:hover{
     height: auto;
 }
 
+
 /* Footer */
 footer{
     height: 6vh;
@@ -383,3 +384,82 @@ footer{
     text-align: center;
 }
 
+
+
+
+
+/* Contact Section */
+#contact {
+    height: 100vh;
+    position: relative;
+    padding: 28vh 0;
+    margin: 0 10rem;
+}
+
+#contact .container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#contact .contact-info {
+    margin-bottom: 20px;
+}
+
+#contact .contact-form-video {
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact .contact-form {
+    width: 40%;
+    margin-right: 20px;
+}
+
+#contact form {
+    margin-top: 20px;
+}
+
+#contact label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#contact input, #contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact input[type="submit"] {
+    background-color:black;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact .video-container {
+    width: 50%;
+}
+
+#contact video {
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
